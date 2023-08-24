@@ -68,7 +68,15 @@ https://matchthemes.com
 1. MAIN STYLE
 
  ************************************/
-
+.photo-grid-container {
+  column-count: 5;
+  column-width: 300px;
+}
+.photo-grid-item {
+  margin: 0 auto 15px;
+  max-width: 400px;
+  width: 100%;
+}
 
 /* RESET STYLES */
 
@@ -1297,7 +1305,7 @@ vertical-align: middle;
 	right: 0;
 	text-align: center;
 	color: #ffffff;
-	padding: 0 56px;
+	
 	z-index: 2;
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -3877,3 +3885,22 @@ MEDIA QUERIES
 	}
 	
 }
+
+
+
+@media (max-width: 600px) {
+	
+	.boyutlandirma img {
+max-width: 900px;
+height: auto;
+}
+
+
+	
+	
+	
+}
+
+
+
+
